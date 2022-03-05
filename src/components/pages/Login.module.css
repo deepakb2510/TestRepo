@@ -1,0 +1,20 @@
+.card {
+  max-width: 40rem;
+  margin: auto;
+  color: black;
+}
+.center {
+  max-width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+@media (max-width: 767px) {
+  .card {
+    margin: 0 auto !important;
+    width: 80% !important;
+  }
+}
+
+.flex {
+}
